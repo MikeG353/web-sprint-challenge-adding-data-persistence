@@ -3,8 +3,7 @@ const db = require('../../data/dbConfig.js')
 module.exports = {
     getProjects,
     getProjectsById,
-    add,
-    //getTasks
+    add
 }
 
 async function getProjects() {
